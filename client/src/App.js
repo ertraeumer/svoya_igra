@@ -5,7 +5,7 @@ import { Themes } from './components/Themes/Themes';
 import './styles/App.css'
 
 function App() {
-  const [partGame, setPartGame] = useState(3)
+  const [partGame, setPartGame] = useState(1)
   switch (partGame) {
     case 1:
       return (
